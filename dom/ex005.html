@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com DOM</title>
+    <style>
+        body {
+            background-color: darkseagreen;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos em com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+
+    <!-- ARVORE DOM (DOCUMENT OBJECT MODEL)
+
+    Navegação:  - por Marca - getElementsByTagName()
+                - por ID - getElementsByTagName()
+                - por Nome - getElementsByName()
+                - por Classe - getElementsByClassName()
+                - por Seletor - querySelector() / querySelectorAll() *** MAIS USADO
+    -->
+
+    <script>
+        var corpo = window.document.body
+        var p0 = window.document.getElementsByClassName
+        var d = window.document.querySelector('div#msg')
+
+        d.style.background = 'orange'
+        d.style.padding = '15px'
+    </script>
+</body>
+</html>

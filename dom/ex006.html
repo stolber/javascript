@@ -1,0 +1,54 @@
+    <!-- EVENTOS
+    
+            - MOUSE: mouseenter / mousemove / mousedown / mouseup / click / mouseout
+
+            https://developer.mozilla.org/pt-BR/docs/Web/Events
+    -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        #area {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: brown;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        Interaja...
+    </div>
+
+    <!-- FUNÇÕES -->
+
+    <script>
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.innerText = 'CLICOU! :)'
+            a.style.background = 'blue'
+        }
+        function entrar() {
+            a.innerText = 'HELO!'
+        }
+        function sair() {
+            a.innerText = 'SAIU :('
+            a.style.background = 'brown'
+        }
+    </script>
+
+</body>
+</html>
