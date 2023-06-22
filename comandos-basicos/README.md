@@ -54,12 +54,5 @@ Exemplo:
 document.write("Olá, seja bem-vindo ao nosso site!");
 ```
 
-Utilize esses comandos básicos em suas aplicações JavaScript para interagir com os usuários e manipular dados de forma eficiente e intuitiva. Explore a documentação oficial para obter mais detalhes sobre cada um desses comandos:
+Utilize esses comandos básicos em suas aplicações JavaScript para interagir com os usuários e manipular dados de forma eficiente e intuitiva. :rocket:
 
-- [MDN Web Docs - alert](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/alert)
-- [MDN Web Docs - confirm](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/confirm)
-- [MDN Web Docs - prompt](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/prompt)
-- [MDN Web Docs - Number](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number)
-- [MDN Web Docs - document.write](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/write)
-
-Divirta-se explorando esses recursos e criando interações interessantes em seus projetos! :rocket:
